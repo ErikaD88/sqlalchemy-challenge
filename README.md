@@ -1,6 +1,3 @@
-![Surfing Image](A7F56CBE-1C00-420B-A9B5-3218505E834F.jpeg)
-
-
 # sqlalchemy-challenge
 
 This repository is designed to make a climate analysis on Honolulu, Hawaii, to help clients with trip planning and outline what they need to do during their vacation. It provides a flask-based api for analyzing historical climate data. The dataset includes temperature observations and precipitation data from various weather stations in Hawaii.
@@ -55,8 +52,3 @@ print(response.json())
    python app.py
    ```
 3. Access the API locally at `http://127.0.0.1:5000/`.
-
-## Future Improvements
-- Implement caching for frequently accessed endpoints.
-- Add detailed data visualizations for API outputs.
-- Optimize database queries for larger datasets.
